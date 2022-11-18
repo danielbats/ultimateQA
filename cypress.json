@@ -1,0 +1,18 @@
+{
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 30000,
+    "viewportHeight": 720,
+    "viewportWidth": 1280,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "reports",
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "timestamp:": "longDate",
+        "overwrite": false
+    },
+    "env": {
+        "baseUrl": "https://www.saucedemo.com/",
+        "username": "jessyca.strosin71@yahoo.com",
+        "password": "12345678"
+    }
+}
